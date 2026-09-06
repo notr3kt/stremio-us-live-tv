@@ -1,0 +1,1 @@
+{"streams": [{"url": "https://rumble.com/live-hls/6v67mu/playlist.m3u8", "name": "US Live TV", "title": "Lindell TV (720p)", "behaviorHints": {"notWebReady": true}}, {"url": "https://stream.vocl.com/hls/lindelltv/index.m3u8", "name": "US Live TV", "title": "Lindell TV (auto)", "behaviorHints": {"notWebReady": true}}]}

@@ -1,0 +1,1 @@
+{"streams": [{"url": "https://6096a9cf11ae5.streamlock.net:1943/live/missiontv/playlist.m3u8", "name": "US Live TV", "title": "Mission TV (1080p)", "behaviorHints": {"notWebReady": true}}, {"url": "http://stream.missiontv.com:1935/live/missiontv_720p/playlist.m3u8", "name": "US Live TV", "title": "Mission TV (720p)", "behaviorHints": {"notWebReady": true}}]}

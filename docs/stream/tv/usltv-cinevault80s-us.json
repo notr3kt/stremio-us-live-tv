@@ -1,0 +1,1 @@
+{"streams": [{"url": "https://gsn-cinevault-80s-2-us.roku.wurl.tv/playlist.m3u8", "name": "US Live TV", "title": "Cinevault 80s (540p)", "behaviorHints": {"notWebReady": true}}, {"url": "https://aegis-cloudfront-1.tubi.video/ea1ab5d1-f554-4f6b-b03f-2611fcd94257/playlist.m3u8", "name": "US Live TV", "title": "Cinevault 80s (720p)", "behaviorHints": {"notWebReady": true}}]}

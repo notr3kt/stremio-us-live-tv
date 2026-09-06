@@ -1,0 +1,1 @@
+{"streams": [{"url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=119", "name": "US Live TV", "title": "Canela TV (auto)", "behaviorHints": {"notWebReady": true}}, {"url": "https://d3cx6yargdnl7q.cloudfront.net/canelatv.m3u8", "name": "US Live TV", "title": "Canela TV (1080p)", "behaviorHints": {"notWebReady": true}}]}

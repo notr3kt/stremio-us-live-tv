@@ -1,0 +1,1 @@
+{"streams": [{"url": "http://170.254.17.2/WE_TV/index.m3u8", "name": "US Live TV", "title": "We TV (720p)", "behaviorHints": {"notWebReady": true}}, {"url": "https://streamer1.nexgen.bz/WE_TV/index.m3u8", "name": "US Live TV", "title": "We TV (720p)", "behaviorHints": {"notWebReady": true}}]}

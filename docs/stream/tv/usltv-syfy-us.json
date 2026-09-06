@@ -1,0 +1,1 @@
+{"streams": [{"url": "http://23.237.104.106:8080/USA_SYFY/index.m3u8", "name": "US Live TV", "title": "SYFY (720p)", "behaviorHints": {"notWebReady": true}}, {"url": "http://tvsen7.aynascope.net/syfy/index.m3u8", "name": "US Live TV", "title": "SYFY (720p)", "behaviorHints": {"notWebReady": true}}]}

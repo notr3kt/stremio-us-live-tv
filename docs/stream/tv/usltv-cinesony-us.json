@@ -1,0 +1,1 @@
+{"streams": [{"url": "http://177.234.249.178:8888/SONY-MOVIES/index.m3u8", "name": "US Live TV", "title": "Cine Sony (1080p)", "behaviorHints": {"notWebReady": true}}, {"url": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8", "name": "US Live TV", "title": "Cine Sony (720p)", "behaviorHints": {"notWebReady": true}}]}

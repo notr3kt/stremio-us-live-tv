@@ -19,7 +19,7 @@ def slug(x): return re.sub(r'[^a-z0-9]+', '-', x.lower()).strip('-')
 metas, streamfiles = [], {}
 for cid, ss in by_chan.items():
     c = us[cid]; cats = c.get('categories') or ['general']
-    mid = 'usltv:' + slug(cid)
+    mid = 'usltv-' + slug(cid)
     metas.append({'id': mid, 'type': 'tv', 'name': c['name'], 'poster': logo.get(cid), 'logo': logo.get(cid),
                   'background': logo.get(cid), 'posterShape': 'square', 'genres': [cat_name.get(k, k) for k in cats],
                   'description': f"{c['name']} — free live stream via the public iptv-org index. Category: {', '.join(cat_name.get(k,k) for k in cats)}.",
@@ -32,9 +32,9 @@ top = ['news', 'sports', 'entertainment', 'movies', 'series', 'kids', 'music', '
 cat_defs = [{'type': 'tv', 'id': 'usltv_all', 'name': 'US Live TV (all)', 'extra': [{'name': 'skip'}]}]
 for k in top:
     if any(k in m['_cats'] for m in metas): cat_defs.append({'type': 'tv', 'id': f'usltv_{k}', 'name': f'US Live TV: {cat_name.get(k,k)}', 'extra': [{'name': 'skip'}]})
-manifest = {'id': 'community.us-live-tv.iptvorg', 'version': '1.0.0', 'name': 'US Live TV (iptv-org)',
+manifest = {'id': 'community.us-live-tv.iptvorg', 'version': '1.0.1', 'name': 'US Live TV (iptv-org)',
             'description': f'{len(metas)} free US live TV channels from the public iptv-org index, grouped by category. Built by Claude for personal use.',
-            'logo': 'https://iptv-org.github.io/assets/logo.png', 'resources': ['catalog', 'meta', 'stream'], 'types': ['tv'], 'idPrefixes': ['usltv:'],
+            'logo': 'https://iptv-org.github.io/assets/logo.png', 'resources': ['catalog', 'meta', 'stream'], 'types': ['tv'], 'idPrefixes': ['usltv-'],
             'catalogs': cat_defs, 'behaviorHints': {'configurable': False}}
 def w(p, o):
     os.makedirs(os.path.dirname(p), exist_ok=True); json.dump(o, open(p, 'w', encoding='utf-8'), ensure_ascii=False)
