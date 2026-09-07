@@ -1,1 +1,1 @@
-{"streams": [{"url": "https://messi.damitv.st/papi/ts/freeform-usa/playlist.m3u8", "name": "US Live TV", "title": "Freeform (1080p)", "behaviorHints": {"notWebReady": true}}, {"url": "http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8", "name": "US Live TV", "title": "Freeform (720p)", "behaviorHints": {"notWebReady": true}}]}
+{"streams": [{"url": "http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8", "name": "US Live TV", "title": "Freeform (720p)", "behaviorHints": {"notWebReady": true}}]}
