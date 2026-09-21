@@ -1,1 +1,1 @@
-{"streams": [{"url": "https://dil9xdvretp0f.cloudfront.net/index.m3u8", "name": "US Live TV", "title": "HappyKids (1080p)", "behaviorHints": {"notWebReady": true}}]}
+{"streams": [{"url": "https://mumbai-edge.smartplaytv.in/HappyKids/index.m3u8", "name": "US Live TV", "title": "HappyKids (576p)", "behaviorHints": {"notWebReady": true}}, {"url": "https://dil9xdvretp0f.cloudfront.net/index.m3u8", "name": "US Live TV", "title": "HappyKids (1080p)", "behaviorHints": {"notWebReady": true}}]}
